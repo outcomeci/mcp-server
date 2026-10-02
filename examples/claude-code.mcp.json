@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "outcomeci": {
+      "type": "http",
+      "url": "https://api.outcomeci.com/v1/mcp"
+    }
+  }
+}

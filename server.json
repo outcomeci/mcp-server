@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.outcomeci/mcp-server",
+  "title": "OutcomeCI",
+  "description": "Create, validate, and manage agent-powered workflows with OutcomeCI.",
+  "version": "1.0.0",
+  "websiteUrl": "https://outcomeci.com",
+  "repository": {
+    "url": "https://github.com/outcomeci/mcp-server",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.outcomeci.com/v1/mcp"
+    }
+  ]
+}
